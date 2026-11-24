@@ -20,4 +20,4 @@ The requirements use NumPy 1.26.4 or newer. Install the CPU-only PyTorch wheels 
 python detect.py --weights yolov7.pt --source inference/images/bus.jpg --device cpu
 ```
 
-Download the official [`yolov7.pt` weights](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) into the project root before running inference. Model weights are not included in this repository. Results are saved under `runs/detect/`.
+Download the official [`yolov7.pt` weights](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) into the project root before running inference. The official checkpoint is not included; `traced_model.pt` is included as a generated trace of those weights, but this command still requires `yolov7.pt`. Results are saved under `runs/detect/`.

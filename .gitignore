@@ -215,8 +215,9 @@ Temporary Items
 # User-specific stuff:
 .idea/*
 
-# Keep the official downloadable weights, generated traces, and paper out of Git.
-paper/yolov7.pdf
+# Keep the official downloadable weights out; include the requested model trace and paper.
+!traced_model.pt
+!paper/yolov7.pdf
 
 # Publicly shareable project examples.
 !figure/*.jpg
