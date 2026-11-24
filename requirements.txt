@@ -1,4 +1,5 @@
-# Usage: pip install -r requirements.txt
+# Windows CPU users: install CPU-only torch and torchvision as described in yolov7-cpu.md first.
+# Then install the remaining project dependencies with: python -m pip install -r requirements.txt
 
 # Base ----------------------------------------
 matplotlib>=3.2.2
